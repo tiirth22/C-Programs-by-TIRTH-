@@ -59,7 +59,7 @@ int Circle::activeObjects = 0;
 
 int main() {
     Circle* circle1 = new Circle(); // Creating circle object with default radius
-    Circle* circle2 = new Circle(3.0); // Creating circle object with radius 3
+    Circle* circle2 = new Circle(20.0); // Creating circle object with radius 3
     Circle* circle3 = new Circle(*circle2); // Creating circle object by copying circle2
 
     std::cout << "Area of circle1: " << circle1->area() << std::endl;
