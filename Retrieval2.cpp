@@ -126,5 +126,11 @@ public:
 
     } while (choice != 4);
 
+  }
+};
+
+int main() {
+    EmployeeManagementSystem ems;
+    ems.startSystem();
     return 0;
 }
