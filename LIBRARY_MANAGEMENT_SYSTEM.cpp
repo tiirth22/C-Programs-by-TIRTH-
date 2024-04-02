@@ -90,7 +90,7 @@ books[14] = new Book(" (14.)    Surya Sidhanta ", " AryaBhatta ");
 
     void displayBooks() const {
         cout << "Available Books:" << endl;
-        for (int i = 0; i < 15; ++i) {
+        for (int i = 1; i < 15; ++i) {
             if (books[i] != nullptr && books[i]->isAvailable()) {
                 cout << books[i]->getTitle() << " by " << books[i]->getAuthor() << endl;
             }
